@@ -10,6 +10,3 @@ class TestEmployee(unittest.TestCase):
     def test_email(self):
         employee = Employee("Vera", 20000)
         self.assertEqual(employee.email(), "vera@abc.com")
-
-if __name__ == '__main__':
-    unittest.main()

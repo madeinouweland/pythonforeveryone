@@ -10,6 +10,3 @@ class TestCompany(unittest.TestCase):
             Employee("Dave", 300),
         ])
         self.assertEqual(average_salary, 200)
-
-if __name__ == '__main__':
-    unittest.main()
